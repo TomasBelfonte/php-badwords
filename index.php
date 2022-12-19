@@ -8,23 +8,23 @@
     <title>PHP-BADWORDS</title>
 </head>
 <body>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center my-5">
         <h1 class="text-primary">PHP BADWORDS</h1>
     </div>
     
     <div class="row justify-content-center">
         <div class="col-sm-6" >
             <form action="data.php" method="POST">
-                <div>
+                <div class="my-3" >
                     <label for="" class="form-label">inserisci un testo da analizzare</label>
                     <textarea class="form-control" name="inputText" ></textarea>                    
                 </div>
 
-                <div>
+                <div class="my-3" >
                     <label for="" class="form-label">inserisci una parola da censurare</label>
-                    <input type="text" class="form-control" name="inputText" ></input> 
+                    <input type="text" class="form-control" name="inputWord" ></input> 
                 </div>
-                <button class="btn btn-primary">Esegui</button>
+                <button class="btn btn-primary my-3">Esegui</button>
             </form>
         </div>
 
